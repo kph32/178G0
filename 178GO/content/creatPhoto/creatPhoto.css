@@ -1,0 +1,66 @@
+.box1{
+	min-height: 800px;
+	background-color: #D3FFD3;
+    margin-top: 84px;
+}
+.album-upload{
+	margin: auto;
+    padding: 30px 35px;
+    max-width: 880px;
+    min-height: 680px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.album-upload .title{
+	margin-bottom: 20px;
+}
+.title{
+    color: #6f7b8a;
+    letter-spacing: 1px;
+}
+.box1 ul{
+    list-style: none;
+}
+.box1 .info-item{
+    margin-bottom: 35px;
+    width: calc( 100% - 130px);
+}
+.box1 .info-title{
+    width: 130px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: inline-block;
+    vertical-align:top;
+    color: #6f7b8a;
+    line-height: 1.6; 
+}
+.info-list .sub-title{
+    margin-right: 5px;
+}
+.info-list .info-item .info-content{
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: top;
+    color: #6f7b8a;
+    line-height: 1.6;
+}
+.box1  .save-album{
+    display: block;
+    width: 100%;
+    border:1px solid #1EA569;
+    background-color: #1EA569;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.box1  .save-album:hover{
+    display: block;
+    width: 100%;
+    border:1px solid #1EA569;
+    background-color:#06CB73;
+    color: #fff;
+}    

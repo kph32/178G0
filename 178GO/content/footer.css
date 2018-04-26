@@ -1,0 +1,9 @@
+.fter{
+	background-color: #272822;
+	min-height: 100px;
+	text-align: center;
+	color: #fff;
+}
+.fter p{
+	line-height: 100px;
+}

@@ -1,0 +1,60 @@
+.box1{
+	min-height: 900px;
+	background: url(../../img/back02.jpg);
+}
+.photobox{
+	max-width: 960px;
+	margin: auto;
+	margin-top: 84px;
+}
+.photobox .a{
+	border:1px solid #fff;
+	margin-bottom: 45px;
+	padding: 6px 12px;
+	text-align: center;
+}
+.photobox .aa{
+	color: #000;
+	background-color: #fff;
+	border-color: #ccc;
+	transition: .5s;
+}
+.photobox .aaa{
+	border-radius: 8px;
+	display: block;
+	width: 100%;
+	
+}
+.photobox .aa:hover{
+	background-color: #E5E5E5;
+}
+.pbanner{
+	background: url(../../img/t.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 192px;
+}
+.photoer img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	border-radius: 100%;
+	margin: 0 15px 15px 0;
+}
+.photoer:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.photoer h3{
+	padding-top: 22px;
+}
+.panel-body img{
+	width: 100%;
+}
+.panel-body{
+	transition: .5s;
+}
+.panel-body:hover{
+	    box-shadow: 5px 10px 8px #888888;
+}

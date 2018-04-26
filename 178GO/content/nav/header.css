@@ -1,0 +1,23 @@
+header {
+    align-items: center;
+    background-color: #00f;
+    display: flex;
+    flex-direction: row;
+    height: 7rem;
+    padding: 0 15px;
+    position: fixed;
+    z-index: 100;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+.site-logo {
+    transition: color 200ms cubic-bezier(.55, 0, .1, 1);
+    color: #30acff;
+    font-size: 3rem;
+}
+
+
+.ok-header__logo:hover {color: #fa0}

@@ -1,0 +1,101 @@
+/*
+.navimenu{
+	position:relative;
+	min-width:100px;
+	min-height:100px;
+	margin:auto auto auto -80px;
+	padding-top:20px;
+	padding-left:80px;
+	box-sizing:border-box;
+	text-align:left;
+	backface-visibility:hidden;
+	outline:transparent solid 5px;
+	transform-style:preserve-3d;
+}*/
+.gooeySVG{
+	width: 0px;
+	height: 0px;
+}
+.ball{
+	position: fixed;
+	z-index: 50;
+	top: 100px;
+	right: 20px;
+}
+
+.navimenu .gooey-menu-item,.navimenu .open-button{
+	border-radius:100%;
+	position:absolute;
+	color:#fff;
+	text-align:center;
+	font-size:.9em;
+	transform:translate3d(0,0,0);
+	transition:transform ease-out 200ms;
+	backface-visibility:hidden;
+	outline:transparent solid 5px;
+	transform-style:preserve-3d;
+	right: 0;
+}
+.navimenu .menu-open{
+	display:none
+}
+.navimenu .burger{
+	background:#fff;
+	display:block;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-1.5px;
+	transition:transform 200ms;
+}
+.navimenu .burger-1{
+	transform:translate3d(0,-8px,0);
+}
+.navimenu .burger-2{
+	transform:translate3d(0,0,0);
+}
+.navimenu .burger-3{
+	transform:translate3d(0,8px,0);
+}
+.navimenu .menu-open:checked+.open-button .burger-1{
+	transform:translate3d(0,0,0) rotate(45deg);
+}
+.navimenu .menu-open:checked+.open-button .burger-2{
+	transform:translate3d(0,0,0) scale(.1,1);
+}
+.navimenu .menu-open:checked+.open-button .burger-3{
+	transform:translate3d(0,0,0) rotate(-45deg);
+}
+.navimenu .gooey-menu-item:hover{
+	background-color:#4682b4;
+	color:#00bcd4;
+}
+.navimenu .gooey-menu-item{
+	transition-duration:180ms;
+}
+.navimenu .open-button{
+	z-index:50;
+	transition-timing-function:cubic-bezier(.175,.885,.32,1.275);
+	transition-duration:400ms;-ms-transition-duration:400ms;
+	cursor:pointer
+}
+.navimenu .open-button:hover{
+	transform:scale(1.2,1.2) translate3d(0,0,0);
+}
+.navimenu .menu-open:checked+.open-button{
+	transition:200ms linear;
+	transform:scale(.9,.9) translate3d(0,0,0);
+}
+@media screen and (min-width:768px){
+.ball{
+		left: 10px;
+	}
+}
+@media screen and (max-width:767px){
+.ball{	
+		width: 10%;
+		height: auto;
+		top:220px;
+		right:20px;
+	}
+}

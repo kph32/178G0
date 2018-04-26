@@ -1,0 +1,96 @@
+.box1{
+	background: url(../../img/po.png) center center no-repeat;
+	background-size: cover;
+	min-height: 300px;
+	position: relative;
+}
+.good{
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	color: #fff;
+}
+.box2{
+	min-height: 800px;
+	background-color: #D3FFD3;
+}
+.album-upload{
+	position: relative;
+	margin: auto;
+    padding: 30px 35px;
+    max-width: 880px;
+    min-height: 680px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.album-upload .title{
+	margin-bottom: 20px;
+}
+.title{
+    color: #6f7b8a;
+    letter-spacing: 1px;
+}
+.album-upload .hint {
+    display: inline-block;
+    font-size: 14px;
+    color: #6f7b8a;
+    position: absolute;
+    top: 32px;
+    right: 35px;
+    z-index: 0;
+}
+.album-upload .hint .total-photo {
+    font-size: 45px;
+}
+.is-hidden{
+	display: none;
+}
+.fileupload-buttonbar{
+	position: relative;
+}
+.fileupload-buttons{
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.btna{
+	min-width: 110px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 3px;
+	text-align: center;
+	background-color:#1EA569;
+	color:#fff;
+}
+.btnb{
+	width: auto;
+	padding:10px 10px;
+}
+.play{
+	position: relative;
+}
+/*.play:after{
+	content: "";
+	width: 15vh;
+	height: 150px;
+	background-image: url(../../img/haha.png);
+	display: block;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+}*/
+
+
+
+
+@media screen and (max-width:767px){
+	.album-upload .hint {
+	    top: 0px;
+	    right: 35px;
+	    z-index: 0;
+	}	
+}
+
+
+
+
